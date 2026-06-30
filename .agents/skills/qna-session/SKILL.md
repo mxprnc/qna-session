@@ -32,6 +32,7 @@ When the user says "종료" or "끝":
     python3 .agents/skills/qna-session/scripts/session_manager.py finalize --num {num}
     ```
 2.  Inform the user of files created in the `working/` folder.
+3.  **Prompt the user for Export:** "Q&A 세션이 종료되었으며 질의응답 기록 문서가 안전하게 보관되었습니다. 이 문서를 가독성이 높은 HTML 대시보드로 변환해 드릴까요? (요약 목차 위주의 'overall' 타입과 상세 질의응답 기록 위주의 'raw' 타입 중 원하시는 형태를 선택해 주세요.)"
 
 ---
 
